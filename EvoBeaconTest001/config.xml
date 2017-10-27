@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="eu.mobilion.ibeacon" spec="0.0.0" source="pgb" />
+
     <plugin name="cordova-plugin-ibeacon " spec="0.0.0" source="npm" />
     <plugin spec="https://github.com/petermetz/cordova-plugin-ibeacon.git" source="git" />
     
