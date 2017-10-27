@@ -12,7 +12,6 @@
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
     <plugin spec="https://github.com/petermetz/cordova-plugin-ibeacon#3.3.0" source="git" />
-
-    <plugin name="cordova.plugins.notification.local" source="npm" />
+    <gplugin name="de.appplant.cordova.plugin.local-notification" />
 
 </widget>
