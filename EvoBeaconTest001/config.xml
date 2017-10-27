@@ -11,4 +11,6 @@
     <xcontent src="http://192.168.43.131:4042" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
+    <plugin spec="https://github.com/petermetz/cordova-plugin-ibeacon#3.3.0" source="git" />
+    <plugin spec="https://github.com/katzer/cordova-plugin-local-notifications#0.8.1" source="git" />
 </widget>
