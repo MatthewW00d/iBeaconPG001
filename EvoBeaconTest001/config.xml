@@ -13,5 +13,6 @@
     <preference name="DisallowOverscroll" value="true" />
     <plugin spec="https://github.com/petermetz/cordova-plugin-ibeacon#3.3.0" source="git" />
     <plugin spec="https://github.com/Salesfloor/cordova-plugin-local-notifications" source="git" />
-    
+    <plugin name="cordova.plugins.notification.local" spec="~1" source="npm" />
+
 </widget>
