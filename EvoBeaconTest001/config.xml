@@ -1,17 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.evobeacon.test001" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>EvoBeaconTest001</name>
+<widget id="com.evothings.cordovaibeacon" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>iBeacon</name>
     <description>
-        A blank PhoneGap app.
+        Example app that monitors and ranges for beacons.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="mikael@evothings.com" href="http://evothings.com">
+        Mikael Kindborg
     </author>
     <content src="index.html" />
+    <xcontent src="http://192.168.43.131:4042" />
     <access origin="*" />
-
-    <plugin name="cordova-plugin-ibeacon " spec="0.0.0" source="npm" />
-    <plugin spec="https://github.com/petermetz/cordova-plugin-ibeacon.git" source="git" />
-    
-
+    <preference name="DisallowOverscroll" value="true" />
 </widget>

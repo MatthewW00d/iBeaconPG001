@@ -4,10 +4,10 @@
 <head>
 
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, user-scalable=no,
-		shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="viewport" content="width=device-width, user-scalable=no
+		initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 
-	<title>iBeacon Scan</title>
+	<title>Cordova iBeacon</title>
 
 	<style>
 		@import 'ui/css/evothings-app.css';
@@ -21,7 +21,6 @@
 	<script src="cordova.js"></script>
 	<script src="libs/jquery/jquery.js"></script>
 	<script src="libs/evothings/evothings.js"></script>
-	<script src="libs/evothings/ui/ui.js"></script>
 	<script src="app.js"></script>
 
 </head>
@@ -38,11 +37,13 @@
 		<!--<button class="menu" onclick=""><img src="ui/images/menu.svg" /></button>-->
 	</header>
 
-	<h1>iBeacon Scan</h1>
-	<p id="warning">To detect iBeacons you will have to add the 128bit UUID's you
-	are looking for to the regions array in app.js of the iBeacon example.
-	</p>
-	<ul id="found-beacons" class="dynamic"></ul>
+	<h1>Cordova iBeacon</h1>
+
+	<p>This app displays the nearest ranged beacon and monitors region enter/exit events. Before the app will work you need to add your beacons by editing the variables mRegions and mRegionData in file app.js.</p>
+
+	<ul id="beacon" class="dynamic"></ul>
+
+	<ul id="events" class="dynamic"></ul>
 
 </body>
 
